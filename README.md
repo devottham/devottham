@@ -1,49 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Devottham D K | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2d89ef;
+    }
+    a {
+      color: #2d89ef;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .badge a {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 5px 5px 0 0;
+      border-radius: 5px;
+      background-color: #ddd;
+    }
+    .tech-stack, .projects {
+      margin: 20px 0;
+    }
+    /* Snake Loader */
+    .snake-loader {
+      display: flex;
+      justify-content: center;
+      margin: 40px 0;
+    }
+    .snake {
+      width: 200px;
+      height: 20px;
+      display: flex;
+    }
+    .snake span {
+      width: 20px;
+      height: 20px;
+      margin: 0 2px;
+      background-color: #2d89ef;
+      animation: move 1s infinite;
+    }
+    .snake span:nth-child(2) { animation-delay: 0.1s; }
+    .snake span:nth-child(3) { animation-delay: 0.2s; }
+    .snake span:nth-child(4) { animation-delay: 0.3s; }
+    .snake span:nth-child(5) { animation-delay: 0.4s; }
 
+    @keyframes move {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>👋 Hi there, I'm Devottham D K!</h1>
+    <p><strong>Frontend Developer | UI/UX Enthusiast | Tech Blogger</strong></p>
+    <p>Welcome to my portfolio! I'm passionate about creating seamless and dynamic web experiences with a keen eye for design and usability.</p>
 
-# 👋 Hi, I'm Devottham D K!  
-### 🚀 Frontend Developer | UI/UX Enthusiast  
+    <h2>🐍 Watch the Snake in Action!</h2>
+    <div class="snake-loader">
+      <div class="snake">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
 
-🌟 Welcome to my GitHub! I'm passionate about **frontend development** and **UI/UX design**, bringing ideas to life with clean and responsive web experiences.  
+    <h2>🚀 About Me</h2>
+    <p>I'm a <strong>Frontend Developer</strong> and <strong>UI/UX Designer</strong> who loves turning ideas into reality through code and design. I'm currently leveling up my Java skills and building impactful projects that solve real-world problems.</p>
 
----
+    <h2>🛠️ Tech Stack</h2>
+    <div class="tech-stack">
+      <ul>
+        <li><strong>Languages:</strong> Java (Learning), Python</li>
+        <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+        <li><strong>Database:</strong> MySQL</li>
+        <li><strong>Tools:</strong> Figma, Git, VS Code</li>
+      </ul>
+    </div>
 
-## 🛠 Tech Stack  
-- **Languages:** Java (Currently Learning) ,Python
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap  
-- **Database:** MySQL  
-- **Tools:** Figma, Git, VS Code  
+    <h2>💡 What I Do</h2>
+    <ul>
+      <li>🎨 Frontend Development – Building responsive, modern websites.</li>
+      <li>🖌️ UI/UX Design – Crafting user-friendly and beautiful interfaces.</li>
+      <li>✍️ Blogging – Sharing insights on tech, coding, and design.</li>
+      <li>🛠️ Project Development – Currently working on <strong>EcoGuardian</strong> – a smart waste management system.</li>
+    </ul>
 
----
+    <h2>📂 Featured Projects</h2>
+    <div class="projects">
+      <h3>🚧 Under Development</h3>
+      <p><strong>EcoGuardian</strong> – Smart Waste Management<br>A next-gen solution for efficient waste handling and sustainability.</p>
 
-## 💡 What I Do  
-🔹 **Frontend Development** – Crafting modern, user-friendly websites.  
-🔹 **UI/UX Design** – Creating intuitive and visually appealing designs.  
-🔹 **Blogging** – Sharing insights on tech, coding, and design.  
-🔹 **Projects** – Currently working on **EcoGuardian – Smart Waste Management System.**  
+      <h3>✅ Completed Projects</h3>
+      <ul>
+        <li><strong>MedZ</strong> – Patient Engagement Platform (Connecting patients, doctors, and hospitals)</li>
+        <li><strong>WSA</strong> – Women Safety Analytics (AI-powered CCTV surveillance)</li>
+        <li><strong>WATCH</strong> – Wildlife Alert System (AI-driven detection to prevent conflicts)</li>
+      </ul>
+    </div>
 
----
+    <h2>🌐 Let's Connect!</h2>
+    <div class="badge">
+      <a href="mailto:your-email@example.com">Email</a>
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a>
+      <a href="https://x.com/yourprofile">X</a>
+      <a href="https://instagram.com/yourprofile">Instagram</a>
+      <a href="https://github.com/yourusername">GitHub</a>
+    </div>
 
-## 📌 Projects  
-✨ **EcoGuardian – Smart Waste Management** *(Under Development)*  
-🔹 A smart and efficient solution for waste management and sustainability.  
-
-✅ **Completed Projects:**  
-🔹 **MedZ – Patient Engagement Platform** – Connecting patients, doctors, and hospitals.  
-🔹 **WSA – Women Safety Analytics** – AI-powered CCTV surveillance for safety monitoring.  
-🔹 **WATCH** – WATCH is an AI-powered wildlife animal detection system that alerts villagers before animals enter, preventing conflicts and ensuring safety.  
-
----
-
-## 📢 Let's Connect!  
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:devotthampec@gmail.com)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)]([your-linkedin-url](https://in.linkedin.com/in/devottham-d-k-58443b25b))   [![X](https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=for-the-badge)]([your-x-url](https://x.com/Devottham_22?t=ZrDPSDyIVvZHKVzFMXWtpg&s=09))  
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)]([your-instagram-url](https://www.instagram.com/devo_2206?igsh=ZmE1MWF3a2RucGFr))  [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)]([your-github-url](https://github.com/devottham))  
-
-
-
----
-
-<!---
-devottham/devottham is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <h2>⚡ Fun Fact</h2>
+    <p>When I'm not coding, you can find me drawing, playing cricket, or watching movies!</p>
+  </div>
+</body>
+</html>
