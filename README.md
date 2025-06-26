@@ -45,5 +45,5 @@ I'm passionate about **frontend development** and **UI/UX design**, bringing ide
 
 ## 📢 Let's Connect!
 
-🌐 [**Portfolio**](https://devottham-portfolio.netlify.app/)
+🌐 [**Let's Connect**](https://devottham-portfolio.netlify.app/)
 
