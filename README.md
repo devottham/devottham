@@ -11,7 +11,7 @@ I'm passionate about **frontend development** and **UI/UX design**, bringing ide
 
 - **Languages:** `Java (Currently Learning)`, `Python`
 - **Frontend:** `HTML`, `CSS`, `JavaScript`, `Bootstrap`
-- **Database:** `MySQL`
+- **Database:** `MySQL`,`Firebase`
 - **Tools:** `Figma`, `Git`, `VS Code`
 
 ---
