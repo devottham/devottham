@@ -41,7 +41,7 @@ I'm passionate about **frontend development** and **UI/UX design**, bringing ide
 - **WATCH** – _Wildlife Alert System_  
   **AI-powered wildlife detection** to alert villagers before animals enter, preventing conflicts and ensuring safety.
 - **Madras Roast Co** – _A fully responsive Indian café website_
-  Browse authentic dishes, manage cart, and place orders with Google Sheets integration. 
+  **Browse** authentic dishes, **manage** cart, and **place** orders with **Google Sheets** integration. 
 
 ---
 
